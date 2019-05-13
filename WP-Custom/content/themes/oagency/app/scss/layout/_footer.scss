@@ -1,0 +1,59 @@
+.footer {
+    background-color: $color-footer-widget;
+
+    &__widgets {
+        display: flex;
+        justify-content: center;
+        padding: 2em 0;
+    }
+
+    .sidebar {
+        display: flex;
+        justify-content: center;
+        padding: 2em 0;
+
+        .widget {
+            line-height: 1.8em;
+        }
+    }
+
+    &__nav {
+        background-color: $color-primary;
+        border-top: 1px solid $color-banner-background-text;
+        padding: 1em 0.2em 1em 12em;
+
+        &__button {
+            background-color: $color-ternary;
+            border-color: $color-ternary;
+            border-radius: unset;
+            color: $color-secondary;
+            padding: 1em 0.8em;
+        }
+    }
+
+    a:link {
+        color: $color-secondary;
+        text-decoration: none;
+        font-size: 0.8em;
+    }
+
+    section {
+        width: 15vw;
+    }
+
+    p {
+        width: 10vw;
+        font-size: 0.8em;
+    }
+
+    li {
+        list-style-type: disc;
+    }
+}
+
+.footer li {
+    line-height: 1.4em;
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 1em;
+}

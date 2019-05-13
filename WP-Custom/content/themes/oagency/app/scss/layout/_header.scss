@@ -1,0 +1,33 @@
+.header {
+    color: $color-secondary;
+
+    &__nav {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1em 0;
+
+        &__logo {
+            font-family: $font-stack-title;
+            font-size: 1.8em;
+        }
+
+        &__list {
+            display: flex;
+        }
+    }
+
+    a:link {
+        color: $color-secondary;
+        text-decoration: none;
+    }
+
+}
+
+.menu-item {
+    color: $color-secondary;
+    font-size: 0.9em;
+    padding: 0 1em;
+    text-decoration: none;
+
+}

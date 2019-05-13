@@ -1,0 +1,25 @@
+.banner {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $color-ternary;
+    display: flex;
+    flex-direction: column;
+    height: 12em;
+    align-items: center;
+
+    &__title {
+        font-size: 1.8em;
+        padding: 1em;
+    }
+
+    &__content {
+        padding: 0 0 1.5em 0;
+    }
+
+    .btn {
+        color: $color-ternary;
+
+    }
+
+}

@@ -1,0 +1,9 @@
+/vendor/
+/wp/
+/wp-config.php
+
+/content/themes/twentynineteen
+/content/plugins
+/content/languages
+/content/upgrade
+/content/uploads

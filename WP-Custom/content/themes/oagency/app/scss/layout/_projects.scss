@@ -1,0 +1,42 @@
+.template-projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    color: $color-primary;
+    display: inline-block;
+    padding: 1em 4em 3em 4em;
+    width: 40%;
+
+    &__image {
+        border-radius: 5px;
+    }
+
+    &__title {
+        font-size: 1.5em;
+        padding: 1em 0 0.5em 0;
+        text-align: left;
+    }
+
+    &__content {
+        font-size: 0.9em;
+        font-weight: 300;
+        line-height: 1.8em;
+        padding-bottom: 0.8em;
+    }
+
+    &__link {
+        align-items: flex-start;
+        border: 1px solid $color-footer-widget;
+    }
+
+
+    p {
+        font-size: 0.9em;
+        font-weight: 300;
+        line-height: 1.8em;
+        padding-bottom: 0.8em;
+    }
+
+}

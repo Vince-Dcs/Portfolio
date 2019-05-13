@@ -1,0 +1,35 @@
+// 1. Abstracts
+@import
+    'abstracts/variables';
+
+// 2. Vendors
+@import '~font-awesome/scss/font-awesome';
+@import '~bootstrap/scss/bootstrap';
+@import '~reset-css/sass/reset';
+
+
+
+// 3. Base
+@import
+    'base/base', 
+    'base/fonts',
+    'base/typography';
+
+// 4. Layout
+@import
+    'layout/banner',
+    'layout/footer',
+    'layout/header',
+    'layout/posts',
+    'layout/projects';
+
+// 5. Components
+@import
+    'components/carousel',
+    'components/post',
+    'components/project';
+
+
+// 6. Pages
+
+// 7. Themes

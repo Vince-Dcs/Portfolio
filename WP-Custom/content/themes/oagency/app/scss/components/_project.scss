@@ -1,0 +1,43 @@
+.background-image {
+    position: relative;
+    width:  100vw;
+}
+
+.project {
+    background-color: $color-ternary;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    position: absolute;
+    left: 7%;
+    top: 8em;
+    width: 80vw;
+
+    &__image {
+        width: 30%;
+        height: 30%;
+    }
+
+        &__title {
+            font-size: 1.5em;
+        }
+    
+    h1,
+    h2 {
+        padding: 0 1em 0.8em 1.5em;
+
+    }
+    p {
+        font-size: 0.9em;
+        font-weight: 300;
+        line-height: 1.8em;
+        padding: 0 1em 0.8em 1.5em;
+    }
+    li {        
+        font-size: 0.9em;
+        line-height: 1.8em;
+        list-style-type: disc;
+        list-style-position: inside;
+        padding-left: 2em;
+    }
+}
