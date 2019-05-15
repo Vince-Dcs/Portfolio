@@ -3,7 +3,8 @@
 /wp-config.php
 
 /content/themes/twentynineteen
-/content/plugins
+content/plugins/*
+!content/plugins/oagency-settings
 /content/languages
 /content/upgrade
 /content/uploads

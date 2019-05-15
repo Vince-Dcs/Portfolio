@@ -17,8 +17,8 @@ function oagency_register_sidebars() {
             'id'            => 'primary',
             'description'   => 'The footer for widgets ',
             'class'   => 'footer__widgets-class',
-            'before_widget' => '<li class="footer__widgets-class">',
-            'after_widget'  => "</li>\n",
+            'before_widget' => '<ul class="footer__widgets-class">',
+            'after_widget'  => "</ul>\n",
         )
     );
 }
